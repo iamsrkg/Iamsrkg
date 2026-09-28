@@ -8,7 +8,7 @@ I work **AI-augmented** (Claude Code daily, with every change tested and reviewe
 
 #### Work highlights
 - **Accenture:** Spring Boot microservices on Kubernetes for **10,000+ concurrent users**. **75–80% faster APIs** from indexing, query rewrites and Redis. Kafka/RabbitMQ for async document processing.
-- **Freelance (solo):** a B2B platform in NestJS + React + MySQL. A separate auth service, a partner API with API keys and HMAC-signed webhooks, **<100 ms** APIs, and **20 → 3 min** deploys.
+- **Freelance (solo):** a secure B2B platform in Node.js / NestJS / TypeScript. Auth split from core services (**60%** less coupling), JWT + RBAC with rate limiting and audit logging, **<100 ms** APIs, and **20 → 3 min** deploys with Docker multi-stage builds.
 - **Accenture, now:** Microsoft Graph automation that removed **75%** of manual operations work across enterprise Microsoft 365 tenants.
 
 #### Public code
