@@ -22,7 +22,7 @@ I work **AI-augmented** (Claude Code daily, with every change tested and reviewe
 | [Prototype-Turrican-2](https://github.com/iamsrkg/Prototype-Turrican-2) | Unity 2D platformer prototype built in four days |
 
 #### Stack
-`Java` `Spring Boot` `Node.js` `NestJS` `TypeScript` `PostgreSQL` `MySQL` `Redis` `Kafka` `RabbitMQ` `AWS` `Docker` `Kubernetes` `React` `Go`
+`Java` `Spring Boot` `Node.js` `NestJS` `TypeScript` `PostgreSQL` `MySQL` `Redis` `Kafka` `RabbitMQ` `AWS` `Docker` `Kubernetes` `React` `React Native`
 
 ✅ Authorized to work in **India and Thailand**, no visa sponsorship required · open to on-site, hybrid and remote roles
 📫 [sudheerkgupta@outlook.com](mailto:sudheerkgupta@outlook.com) · [LinkedIn](https://www.linkedin.com/in/iamsrkg)
