@@ -18,7 +18,7 @@ I work **AI-augmented** (Claude Code daily, with every change tested and reviewe
 | [task-management-api](https://github.com/iamsrkg/task-management-api) | Multi-tenant Spring Boot API: JWT + RBAC, tenant-scoped queries, optimistic locking, rate limiting. 20 integration tests + CI |
 | [JOB-HUNT](https://github.com/iamsrkg/JOB-HUNT) | A 2020 PHP job portal I hardened: SQL injection, upload RCE, broken access control, CSRF and XSS fixed. 43 end-to-end tests |
 | [Video-Based-Dynamic-Human-Authentication-System](https://github.com/iamsrkg/Video-Based-Dynamic-Human-Authentication-System) | Face-recognition gate logger (OpenCV Haar + LBPH), published in IJAST, revived for current Python/OpenCV |
-| [tic-tac-toe](https://github.com/iamsrkg/tic-tac-toe) | Real-time multiplayer over PubNub pub/sub and presence (React Native) |
+| [tic-tac-toe](https://github.com/iamsrkg/tic-tac-toe) · [**play it**](https://iamsrkg.github.io/tic-tac-toe/) | Real-time multiplayer on Android, iOS and web: Expo SDK 57 / React Native 0.86 + PubNub pub/sub and presence |
 | [Prototype-Turrican-2](https://github.com/iamsrkg/Prototype-Turrican-2) | Unity 2D platformer prototype built in four days |
 
 #### Stack
