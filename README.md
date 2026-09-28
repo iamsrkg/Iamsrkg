@@ -1,28 +1,25 @@
-### Hi, I'm Sudheer 👋
+### Hi, I'm Sudheer
 
-**Backend engineer** with 5 years' experience. I build APIs and data layers that stay fast and correct under load, in **Java / Spring Boot** and **Node.js / NestJS**, shipped on **AWS, Docker and Kubernetes**. AWS Certified Solutions Architect – Associate.
+I'm a backend engineer with almost five years of experience, mostly in Java and Spring Boot, and more recently Node.js and NestJS. I started at Accenture on a Spring Boot platform that grew to 10,000+ people online at once, with Kafka for the slow work and Docker and Kubernetes for shipping it. These days I automate Microsoft 365 for enterprise clients through the Graph API, and in 2025–26 I built a B2B platform on my own for a CA firm.
 
-I work **AI-augmented** (Claude Code daily, with every change tested and reviewed), I **pick up new stacks fast**, and I like **the hard problems**: slow queries, leaky auth boundaries, flaky deploys.
+I'm looking for a Java backend role, or a backend or full-stack one. I can work in India or Thailand without visa sponsorship, on-site, hybrid or remote.
 
-🔗 **[iamsrkg.github.io](https://iamsrkg.github.io)**: my portfolio is served by *its own backend running in your browser*, with a Service Worker as the HTTP layer and PostgreSQL as WebAssembly. Every request, header and SQL statement is inspectable. Try to break the API: row-level security, JWT, 409s and 429s.
+**Portfolio: [iamsrkg.github.io](https://iamsrkg.github.io).** It follows one request through a backend (edge, rate limiter, auth, service, database, queue) and shows where I've built each part. There's a live API you can try to break, too.
 
-#### Work highlights
-- **Accenture:** Spring Boot microservices on Kubernetes for **10,000+ concurrent users**. **75–80% faster APIs** from indexing, query rewrites and Redis. Kafka/RabbitMQ for async document processing.
-- **Freelance (solo):** a secure B2B platform in Node.js / NestJS / TypeScript. Auth split from core services (**60%** less coupling), JWT + RBAC with rate limiting and audit logging, **<100 ms** APIs, and **20 → 3 min** deploys with Docker multi-stage builds.
-- **Accenture, now:** Microsoft Graph automation that removed **75%** of manual operations work across enterprise Microsoft 365 tenants.
+#### What I've done at work
+- **Accenture, 2021–24:** Spring Boot microservices on Kubernetes for 10,000+ concurrent users. Indexes, rewritten queries and Redis caching made our APIs 75–80% faster. Document uploads went to S3, with processing moved onto Kafka and RabbitMQ consumers.
+- **Freelance, 2025–26:** a B2B client platform in NestJS and TypeScript, on my own. I split auth into its own service (about 60% less coupling), added JWT, RBAC, rate limiting and audit logs, got responses under 100 ms on MySQL, and cut deploys from about 20 minutes to 3 with multi-stage Docker builds.
+- **Accenture, 2024–now:** PowerShell and Microsoft Graph automation for enterprise Microsoft 365. It took away about 75% of the manual work.
 
-#### Public code
-| Repo | What it shows |
+#### Public code you can run
+| Repo | What it is |
 |---|---|
-| [iamsrkg.github.io](https://github.com/iamsrkg/iamsrkg.github.io) | In-browser backend: Service Worker HTTP + PostgreSQL (PGlite), RLS, JWT, rate limiting, request tracing. 36 tests + CI |
-| [task-management-api](https://github.com/iamsrkg/task-management-api) | Multi-tenant Spring Boot API: JWT + RBAC, tenant-scoped queries, optimistic locking, rate limiting. 20 integration tests + CI |
-| [JOB-HUNT](https://github.com/iamsrkg/JOB-HUNT) | A 2020 PHP job portal I hardened: SQL injection, upload RCE, broken access control, CSRF and XSS fixed. 43 end-to-end tests |
-| [Video-Based-Dynamic-Human-Authentication-System](https://github.com/iamsrkg/Video-Based-Dynamic-Human-Authentication-System) · [**try it**](https://iamsrkg.github.io/Video-Based-Dynamic-Human-Authentication-System/) | Face-recognition gate logger (OpenCV Haar + LBPH), now also in the browser: OpenCV.js in a Web Worker + a JS port of LBPH |
-| [tic-tac-toe](https://github.com/iamsrkg/tic-tac-toe) · [**play it**](https://iamsrkg.github.io/tic-tac-toe/) | Real-time multiplayer on Android, iOS and web: Expo SDK 57 / React Native 0.86 + PubNub pub/sub and presence |
-| [Prototype-Turrican-2](https://github.com/iamsrkg/Prototype-Turrican-2) | Unity 2D platformer prototype built in four days |
+| [task-management-api](https://github.com/iamsrkg/task-management-api) | A multi-tenant Spring Boot 4 API (Java 21): JWT with roles, per-tenant queries, optimistic locking, a rate limiter. 20 integration tests in CI. |
+| [JOB-HUNT](https://github.com/iamsrkg/JOB-HUNT) | A PHP job portal from 2020 that I secured and put in Docker. CI runs 44 end-to-end checks against the image. |
+| [Video-Based-Dynamic-Human-Authentication-System](https://github.com/iamsrkg/Video-Based-Dynamic-Human-Authentication-System) · [try it](https://iamsrkg.github.io/Video-Based-Dynamic-Human-Authentication-System/) | Face recognition that logs who walks past a camera. The Python app also runs in the browser now. |
+| [tic-tac-toe](https://github.com/iamsrkg/tic-tac-toe) · [play it](https://iamsrkg.github.io/tic-tac-toe/) | Real-time two-player game over PubNub. I moved it from React Native 0.59 to Expo SDK 57, so it runs on Android, iOS and the web. |
+| [iamsrkg.github.io](https://github.com/iamsrkg/iamsrkg.github.io) | My portfolio, written by hand in plain HTML, CSS and JavaScript. |
 
-#### Stack
-`Java` `Spring Boot` `Node.js` `NestJS` `TypeScript` `PostgreSQL` `MySQL` `Redis` `Kafka` `RabbitMQ` `AWS` `Docker` `Kubernetes` `React` `React Native`
+**What I work with:** Java, Spring Boot, Spring Security, Spring Data JPA, JUnit, Node.js, NestJS, TypeScript, PostgreSQL, MySQL, Redis, Kafka, RabbitMQ, Docker, Kubernetes, AWS, React Native.
 
-✅ Authorized to work in **India and Thailand**, no visa sponsorship required · open to on-site, hybrid and remote roles
-📫 [sudheerkgupta@outlook.com](mailto:sudheerkgupta@outlook.com) · [LinkedIn](https://www.linkedin.com/in/iamsrkg)
+AWS Certified Solutions Architect – Associate · [sudheerkgupta@outlook.com](mailto:sudheerkgupta@outlook.com) · [LinkedIn](https://www.linkedin.com/in/iamsrkg)
