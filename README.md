@@ -2,7 +2,7 @@
 
 I'm a backend engineer with almost five years of experience, mostly in Java and Spring Boot, and more recently Node.js and NestJS. I started at Accenture on a Spring Boot platform that grew to 10,000+ people online at once, with Kafka for the slow work and Docker and Kubernetes for shipping it. These days I automate an enterprise Microsoft 365 environment of 40,000+ users through the Graph API and mentor the juniors on my team, and in 2025–26 I built an internal client management platform on my own for a CA firm.
 
-I'm looking for a Java backend role, or a backend or full-stack one. I can work in India or Thailand without visa sponsorship, on-site, hybrid or remote.
+I'm looking for a Java backend role, or a backend or full-stack one, starting from 3 November 2026 (my last day at Accenture is 2 November). I can work in India or Thailand without visa sponsorship, on-site, hybrid or remote.
 
 **Portfolio: [iamsrkg.github.io/portfolio](https://iamsrkg.github.io/portfolio/).** It follows one request through a backend (edge, rate limiter, auth, service, database, queue) and shows where I've built each part. There's a live API you can try to break, too.
 
