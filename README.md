@@ -14,8 +14,8 @@ I'm looking for a Java backend role, or a backend or full-stack one, starting fr
 #### Public code you can run
 | Repo | What it is |
 |---|---|
-| [task-management-api](https://github.com/iamsrkg/task-management-api) | A multi-tenant Spring Boot 4 API (Java 21): JWT with roles, per-tenant queries, optimistic locking, a rate limiter. 20 integration tests in CI. |
-| [JOB-HUNT](https://github.com/iamsrkg/JOB-HUNT) | A PHP job portal from 2020 that I secured and put in Docker. CI runs 44 end-to-end checks against the image. |
+| [task-management-api](https://github.com/iamsrkg/task-management-api) | A multi-tenant Spring Boot 4 API (Java 21): JWT with roles, per-tenant queries, optimistic locking, a rate limiter. Swagger UI, 21 tests in CI · [run it in Codespaces](https://codespaces.new/iamsrkg/task-management-api?quickstart=1) |
+| [JOB-HUNT](https://github.com/iamsrkg/JOB-HUNT) | A PHP job portal from 2020 that I secured and put in Docker. CI runs 44 end-to-end checks against the image · [run it in Codespaces](https://codespaces.new/iamsrkg/JOB-HUNT?quickstart=1) |
 | [Video-Based-Dynamic-Human-Authentication-System](https://github.com/iamsrkg/Video-Based-Dynamic-Human-Authentication-System) · [try it](https://iamsrkg.github.io/Video-Based-Dynamic-Human-Authentication-System/) | Face recognition that logs who walks past a camera. The Python app also runs in the browser now. |
 | [tic-tac-toe](https://github.com/iamsrkg/tic-tac-toe) · [play it](https://iamsrkg.github.io/tic-tac-toe/) | Real-time two-player game over PubNub. I moved it from React Native 0.59 to Expo SDK 57, so it runs on Android, iOS and the web. |
 | [portfolio](https://github.com/iamsrkg/portfolio) · [open it](https://iamsrkg.github.io/portfolio/) | My portfolio, written by hand in plain HTML, CSS and JavaScript. |
