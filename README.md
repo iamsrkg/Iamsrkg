@@ -18,7 +18,7 @@ I'm looking for a Java backend role, or a backend or full-stack one. I can work 
 | [JOB-HUNT](https://github.com/iamsrkg/JOB-HUNT) | A PHP job portal from 2020 that I secured and put in Docker. CI runs 44 end-to-end checks against the image. |
 | [Video-Based-Dynamic-Human-Authentication-System](https://github.com/iamsrkg/Video-Based-Dynamic-Human-Authentication-System) · [try it](https://iamsrkg.github.io/Video-Based-Dynamic-Human-Authentication-System/) | Face recognition that logs who walks past a camera. The Python app also runs in the browser now. |
 | [tic-tac-toe](https://github.com/iamsrkg/tic-tac-toe) · [play it](https://iamsrkg.github.io/tic-tac-toe/) | Real-time two-player game over PubNub. I moved it from React Native 0.59 to Expo SDK 57, so it runs on Android, iOS and the web. |
-| [iamsrkg.github.io](https://github.com/iamsrkg/iamsrkg.github.io) | My portfolio, written by hand in plain HTML, CSS and JavaScript. |
+| [portfolio](https://github.com/iamsrkg/portfolio) · [open it](https://iamsrkg.github.io/portfolio/) | My portfolio, written by hand in plain HTML, CSS and JavaScript. |
 
 **What I work with:** Java, Spring Boot, Spring Security, Spring Data JPA, JUnit, Node.js, NestJS, TypeScript, PostgreSQL, MySQL, Redis, Kafka, RabbitMQ, Docker, Kubernetes, AWS, React Native.
 
