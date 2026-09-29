@@ -1,0 +1,26 @@
+name: Update availability on the start date
+
+# Runs daily. From 3 Nov 2026 it changes "starting from November 2026" to
+# "and I can join immediately" once; after that there's nothing left to change.
+on:
+  schedule:
+    - cron: "30 0 * * *"      # 06:00 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Switch to "join immediately" once the date has passed
+        run: |
+          if [ "$(TZ=Asia/Kolkata date +%Y%m%d)" -lt 20261103 ]; then echo "Not yet."; exit 0; fi
+          if ! grep -q "starting from November 2026" README.md; then echo "Already updated."; exit 0; fi
+          sed -i "s/, starting from November 2026\./, and I can join immediately./" README.md
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Availability: can join immediately"
+          git push
