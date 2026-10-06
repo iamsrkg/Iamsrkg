@@ -8,7 +8,7 @@ I'm looking for a Java backend role, or a backend or full-stack one, in Thailand
 
 #### What I've done at work
 - **Accenture, 2021–24:** Spring Boot microservices on Kubernetes for 10,000+ concurrent users. Indexes, rewritten queries and Redis caching made our APIs 75–80% faster. Document uploads went to S3, with processing moved onto Kafka and RabbitMQ consumers.
-- **Freelance, 2025–26:** an internal client management platform in NestJS and TypeScript, on my own. I split auth into its own service (about 60% less coupling), added JWT, RBAC, rate limiting and audit logs, got responses under 100 ms on MySQL, and cut deploys from about 20 minutes to 3 with multi-stage Docker builds.
+- **Freelance, 2025–26:** an internal client management platform in NestJS and TypeScript, with a React front end, on my own. I split auth into its own service (about 60% less coupling), added JWT, RBAC, rate limiting and audit logs, got responses under 100 ms on MySQL, and cut deploys from about 20 minutes to 3 with multi-stage Docker builds.
 - **Accenture, 2024–now:** PowerShell and Microsoft Graph automation for an enterprise Microsoft 365 environment of 40,000+ users and ~100,000 sites. It took away about 75% of the manual work. I also build the governance dashboards and mentor junior team members.
 
 #### Public code you can run
@@ -19,6 +19,6 @@ I'm looking for a Java backend role, or a backend or full-stack one, in Thailand
 | [tic-tac-toe](https://github.com/iamsrkg/tic-tac-toe) · [play it](https://iamsrkg.github.io/tic-tac-toe/) | Real-time two-player game over PubNub. I moved it from React Native 0.59 to Expo SDK 57, so it runs on Android, iOS and the web. |
 | [portfolio](https://github.com/iamsrkg/portfolio) · [open it](https://iamsrkg.github.io/portfolio/) | My portfolio, written by hand in plain HTML, CSS and JavaScript. |
 
-**What I work with:** Java, Spring Boot, Spring Security, Spring Data JPA, JUnit, Node.js, NestJS, TypeScript, PostgreSQL, MySQL, Redis, Kafka, RabbitMQ, Docker, Kubernetes, AWS, React Native.
+**What I work with:** Java, Spring Boot, Spring Security, Spring Data JPA, JUnit, Node.js, NestJS, TypeScript, PostgreSQL, MySQL, Redis, Kafka, RabbitMQ, Docker, Kubernetes, AWS, React, React Native.
 
 AWS Certified Solutions Architect – Associate · [sudheerkgupta@outlook.com](mailto:sudheerkgupta@outlook.com) · [LinkedIn](https://www.linkedin.com/in/iamsrkg)
