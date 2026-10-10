@@ -4,6 +4,8 @@ I'm a backend engineer with almost five years of experience, mostly in Java and 
 
 I'm looking for a Java backend role, or a backend or full-stack one, in Thailand, remote, or India, starting from November 2026. I live in Bengaluru and I'm ready to relocate to Bangkok. I'm a Thai citizen and also authorized to work in India, so I need no visa sponsorship in either, and I speak fluent English, conversational Thai and Hindi.
 
+**Newest work: [OpsFlow AI](https://github.com/iamsrkg/opsflow-ai)** (October 2026). A system for the team that handles customer problems: it tracks each one through fixed steps, suggests a fix and waits for a manager to approve it. Spring Boot, Kafka, PostgreSQL and Redis, tested against the real services, and you can [run all of it in one click](https://codespaces.new/iamsrkg/opsflow-ai?quickstart=1).
+
 **Portfolio: [iamsrkg.github.io/portfolio](https://iamsrkg.github.io/portfolio/).** It follows one request through a backend (edge, rate limiter, auth, service, database, queue) and shows where I've built each part. There's a live API you can try to break, too.
 
 #### What I've done at work
