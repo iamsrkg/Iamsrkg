@@ -15,6 +15,7 @@ I'm looking for a Java backend role, or a backend or full-stack one, in Thailand
 | Repo | What it is |
 |---|---|
 | [task-management-api](https://github.com/iamsrkg/task-management-api) | A multi-tenant Spring Boot 4 API (Java 21): JWT with roles, per-tenant queries, optimistic locking, a rate limiter. Swagger UI, 21 tests in CI · [run it in Codespaces](https://codespaces.new/iamsrkg/task-management-api?quickstart=1) |
+| [opsflow-ai](https://github.com/iamsrkg/opsflow-ai) · [dashboard demo](https://iamsrkg.github.io/opsflow-ai/) | In progress. Operational requests as a workflow in Spring Boot 3.3 (Java 17): a state machine, optimistic locking, a transactional outbox to Kafka, and an AI step that needs a manager's approval. The README lists what is built and what isn't yet. |
 | [Video-Based-Dynamic-Human-Authentication-System](https://github.com/iamsrkg/Video-Based-Dynamic-Human-Authentication-System) · [try it](https://iamsrkg.github.io/Video-Based-Dynamic-Human-Authentication-System/) | Face recognition that logs who walks past a camera. The Python app also runs in the browser now. |
 | [tic-tac-toe](https://github.com/iamsrkg/tic-tac-toe) · [play it](https://iamsrkg.github.io/tic-tac-toe/) | Real-time two-player game over PubNub. I moved it from React Native 0.59 to Expo SDK 57, so it runs on Android, iOS and the web. |
 | [portfolio](https://github.com/iamsrkg/portfolio) · [open it](https://iamsrkg.github.io/portfolio/) | My portfolio, written by hand in plain HTML, CSS and JavaScript. |
