@@ -12,13 +12,13 @@ I'm looking for a Java backend role, or a backend or full-stack one, in Thailand
 - **Accenture, 2024–now:** PowerShell and Microsoft Graph automation for an enterprise Microsoft 365 environment of 40,000+ users and ~100,000 sites. It took away about 75% of the manual work. I also build the governance dashboards and mentor junior team members.
 
 #### Public code you can run
-| Repo | What it is |
-|---|---|
-| [opsflow-ai](https://github.com/iamsrkg/opsflow-ai) · [run it in Codespaces](https://codespaces.new/iamsrkg/opsflow-ai?quickstart=1) | My latest. Operational requests as a workflow in Spring Boot 3.3 (Java 17): a state machine, a transactional outbox to Kafka with idempotent consumers and a dead-letter topic, runbook search on pgvector, Redis rate limiting, and an AI step that needs a manager's approval. 42 tests against real Kafka, PostgreSQL and Redis; the whole stack starts with one `docker compose up`. |
-| [task-management-api](https://github.com/iamsrkg/task-management-api) | A multi-tenant Spring Boot 4 API (Java 21): JWT with roles and rotating refresh tokens, per-tenant queries, optimistic locking, a rate limiter that shares its buckets through Redis, Flyway migrations. Swagger UI, 26 tests in CI · [run it in Codespaces](https://codespaces.new/iamsrkg/task-management-api?quickstart=1) |
-| [Video-Based-Dynamic-Human-Authentication-System](https://github.com/iamsrkg/Video-Based-Dynamic-Human-Authentication-System) · [try it](https://iamsrkg.github.io/Video-Based-Dynamic-Human-Authentication-System/) | Face recognition that logs who walks past a camera. The Python app also runs in the browser now. |
-| [tic-tac-toe](https://github.com/iamsrkg/tic-tac-toe) · [play it](https://iamsrkg.github.io/tic-tac-toe/) | Real-time two-player game over PubNub. I moved it from React Native 0.59 to Expo SDK 57, so it runs on Android, iOS and the web. |
-| [portfolio](https://github.com/iamsrkg/portfolio) · [open it](https://iamsrkg.github.io/portfolio/) | My portfolio, written by hand in plain HTML, CSS and JavaScript. |
+| Repo | What it is | Built with |
+|---|---|---|
+| [opsflow-ai](https://github.com/iamsrkg/opsflow-ai) · [run it](https://codespaces.new/iamsrkg/opsflow-ai?quickstart=1) | **My latest.** A system for the team that handles customer problems, such as "I was charged but my order is still pending". It tracks each problem through fixed steps, works out what probably happened, suggests a fix, and waits for a manager to approve it. | Java 17, Spring Boot 3.3, Kafka (outbox, idempotent consumers), PostgreSQL + pgvector, Redis, React. 42 tests against the real services. |
+| [task-management-api](https://github.com/iamsrkg/task-management-api) · [run it](https://codespaces.new/iamsrkg/task-management-api?quickstart=1) | An API for projects and tasks used by many customers at once, where each customer can only ever see their own data. It comes with interactive docs you can click through. | Java 21, Spring Boot 4, PostgreSQL, Flyway, Redis rate limiting, JWT with refresh tokens. 26 tests. |
+| [Video-Based-Dynamic-Human-Authentication-System](https://github.com/iamsrkg/Video-Based-Dynamic-Human-Authentication-System) · [try it](https://iamsrkg.github.io/Video-Based-Dynamic-Human-Authentication-System/) | A gate logger: it recognises the faces of people walking past a camera and records who came in and when. It runs in your browser, and nothing leaves your device. | Python, OpenCV, JavaScript |
+| [tic-tac-toe](https://github.com/iamsrkg/tic-tac-toe) · [play it](https://iamsrkg.github.io/tic-tac-toe/) | A two-player game played live from two phones or two browser tabs. | React Native, Expo, PubNub |
+| [portfolio](https://github.com/iamsrkg/portfolio) · [open it](https://iamsrkg.github.io/portfolio/) | My portfolio. It follows one request through a backend and has a live API you can try to break. | HTML, CSS, JavaScript, no framework |
 
 **What I work with:** Java, Spring Boot, Spring Security, Spring Data JPA, JUnit, Node.js, NestJS, TypeScript, PostgreSQL, MySQL, Redis, Kafka, RabbitMQ, pgvector, Flyway, Testcontainers, Docker, Kubernetes, AWS, React, React Native.
 
