@@ -2,7 +2,7 @@
 
 I'm a backend engineer with almost five years of experience, mostly in Java and Spring Boot, and more recently Node.js and NestJS. I started at Accenture on a Spring Boot platform that grew to 10,000+ people online at once, with Kafka for the slow work and Docker and Kubernetes for shipping it. These days I automate an enterprise Microsoft 365 environment of 40,000+ users through the Graph API and mentor the juniors on my team, and in 2025–26 I built an internal client management platform on my own for a CA firm.
 
-I'm looking for a Java backend role, or a backend or full-stack one, in Thailand, remote, or India, starting from November 2026. I live in Bengaluru and I'm ready to relocate to Bangkok. I'm a Thai citizen and also authorized to work in India, so I need no visa sponsorship in either, and I speak fluent English, conversational Thai and Hindi.
+I'm looking for a Java backend role, or a backend or full-stack one, in Thailand, remote, or India, and I can join immediately. I live in Bengaluru and I'm ready to relocate to Bangkok. I'm a Thai citizen and also authorized to work in India, so I need no visa sponsorship in either, and I speak fluent English, conversational Thai and Hindi.
 
 **Newest work: [OpsFlow AI](https://github.com/iamsrkg/opsflow-ai)** (October 2026). A system for the team that handles customer problems: it tracks each one through fixed steps, suggests a fix and waits for a manager to approve it. Spring Boot, Kafka, PostgreSQL and Redis, tested against the real services, and you can [run all of it in one click](https://codespaces.new/iamsrkg/opsflow-ai?quickstart=1).
 
